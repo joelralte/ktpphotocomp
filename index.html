@@ -17,7 +17,8 @@
         <input type="number" id="age" required><br>
 
         <label for="age">Group:</label>
-        <select name="Group" id=" group">
+        <div class="custom-select" style="width: 200px;">
+        <select name="Group" id="group">
             <option value="">Select your group</option>
             <option value="Upa Lalruanga Group">Upa Lalruanga Group</option>
             <option value="Upa R. Lalduhawma Group">Upa R. Lalduhawma Group</option>
@@ -25,13 +26,14 @@
             <option value="Upa H. Lalrinliana Group">Upa H. Lalrinliana Group</option>
 
         </select><br><br>
+    </div>
 
         <label for="image1">Image 1:</label>
-        <input type="file" id="image1" accept="image/*" required><br><br>
-
+        <input type="file" id="image1" accept="image/*" required>
+        <img id="photo1" src="https://i0.wp.com/thinkfirstcommunication.com/wp-content/uploads/2022/05/placeholder-1-1.png" alt="Photo" width="50"><br>
         <label for="image2">Image 2:</label>
-        <input type="file" id="image2" accept="image/*" required><br><br>
-
+        <input type="file" id="image2" accept="image/*" required>
+        <img id="photo2" src="https://i0.wp.com/thinkfirstcommunication.com/wp-content/uploads/2022/05/placeholder-1-1.png" alt="Photo" width="50"><br>
         <button type="submit">Upload</button>
     </form>
 </div>
